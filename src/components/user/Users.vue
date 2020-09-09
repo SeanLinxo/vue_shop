@@ -303,7 +303,7 @@ export default {
       }
       this.userlist = res.data.users;
       this.total = res.data.total;
-      console.log(res);
+      // console.log(res);
     },
     handleSizeChange(newSize) {
       // console.log(newSize);
